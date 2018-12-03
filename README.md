@@ -1,7 +1,14 @@
 # MineSweeper
 A game of Mine Sweeper made with JavaScript and HTML
+Instructions:
+To begin a game, click a dificulty level or enter your prefered game specifications into the input spaces (you can do some insanely big game boards).
+Clicking GO will generate a new game according to your input. 
+Left clicking will reveal whats hidden in a space.
+Right clicking will place a ? in the space to designate where you suspect a bomb will be.
 
-This is probably my first "fully finished" project, and quite frankly at this point the longest one ive done that is actually useable. 
-Its not absolutely perfect, but for the most part no large issues pop up 99% of the time (Its not entirely imposible for two bombs to be in the same position). 
+How to play:
+Clicking on a space will reveal a number. That number tells you how many bombs are sourounding it in eight directions.
+You win by uncovering every space without a bomb, and loose by finding one.
 
-The project wasnt for a class or anything, I just wanted to get better at working with JS. I learned a lot from this process (Especially about debuging), and in the end I was happy with my result.
+
+The project wasnt for a class or anything, I just wanted to get better at working with JS. I learned a lot from this process (Especially about debuging), and in the end I was happy with the result. 
