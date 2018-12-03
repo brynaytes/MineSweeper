@@ -1,0 +1,28 @@
+<!DOCUMENT html>
+<html>
+    <head>
+        <script src="MineSweeper.js"></script>
+        <style>a{font-size:40px;}a:hover{cursor: pointer;}#win1{font-size:50px;}#Loose1{font-size:50px;}#div1{text-align:center;}.para{font-size:20px;}</style>
+        <title>Mine Sweeper</title>
+    </head>
+    <header> 
+		<p>Choose a difficulty or enter in your own game specifications, and click GO.</p>
+		<p>To reload the game click GO again.</p>
+        <p>Left clicking reveals a space. </p>
+        <p>Right clicking places a ? in a space.</p>
+    </header>
+    <body onLoad="go()">
+       <button onclick="load(4,4)">Easy</button>
+        <button onclick="load(6,6)">Medium</button>
+        <button onclick="load(12,24)">Hard</button>
+       
+        <br>
+        <a class="para">Grid Size:</a><input id="gsize">
+        <br>
+        <a class="para">Bomb Number:</a><input id="bsize">
+        <br> <button onclick="reload()">GO</button><br><br>
+    </body>
+    <footer>
+        
+    </footer>
+</html>
